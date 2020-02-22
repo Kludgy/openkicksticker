@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 27C400
+D EPROM 4 Mbit (256Kb x 16)
+$ENDCMP
+#
+$CMP 27C400_Amiga_Driver
+D EPROM 4 Mbit (256Kb x 16) electrical driver from Amiga mainboard
+$ENDCMP
+#
+$CMP M27C160
+D UV/OTP EPROM 16 Mbit (2Mb x8 or 1Mb x16)
+F https://www.sigmaelectronica.net/manuals/27C160.pdf
+$ENDCMP
+#
+#End Doc Library
