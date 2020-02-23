@@ -1,7 +1,7 @@
 Open Kicksticker for Amiga 500+
 ===============================
 
-This repository hold KiCad files for a latching quad Kickstart switcher designed to socket into an Amiga 500+. As with other quad switchers out in the wild, this also selects between 4 different 512KB banks from M27C160 using JP0 & JP1 to pull high address lines A18 & A19 high, respectively. The unique feature of this switch is that it will not actually switch to a new bank until after the keyboard reset signal (connect to ~ROM_KBRESET) is finished asserting low. This prevents the active ROM data from changing while it is in use.
+This repository holds KiCad files for a latching quad Kickstart switcher designed to socket into an Amiga 500+. As with other quad switchers out in the wild, this also selects between 4 different 512KB banks from M27C160 using JP0 & JP1 to pull high address lines A18 & A19 high, respectively. The unique feature of this switch is that it will not actually switch to a new bank until after the keyboard reset signal (connect to ~ROM_KBRESET) is finished asserting low. This prevents the active ROM data from changing while it is in use.
 
 BOM:
 * ROM_U1: 1x 42-pin DIL socket (and programmed M27C160 EPROM).
